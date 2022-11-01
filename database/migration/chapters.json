@@ -1,0 +1,44 @@
+{
+  "table_name": "chapters",
+  "form_type": "alter",
+  "table_field": [
+    {
+      "Field": "library_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "name",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "code",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "description",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "temp_field": [
+    "library_id int(11) NOT NULL",
+    "name varchar(255) ",
+    "code varchar(255) ",
+    "description varchar(255) "
+  ]
+}

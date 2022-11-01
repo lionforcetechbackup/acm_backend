@@ -1,0 +1,53 @@
+{
+  "status": {
+    "active": 1,
+    "inactive": 0,
+    "delete": 2
+  },
+  "role": {
+    "superadmin": 1,
+    "superclientadmin": 2,
+    "clientadmin": 3,
+    "updator": 4,
+    "surveyor": 5,
+    "viewer": 6
+  },
+  "surveyorType": {
+    "internal": 1,
+    "external": 2
+  },
+  "duration": {
+    "year": 1,
+    "month": 2,
+    "week": 3
+  },
+  "organization_type": {
+    "1": "corporate",
+    "2": "subbranch",
+    "3": "individual"
+  },
+  "esr": {
+    "1": "yes",
+    "2": "no"
+  },
+  "activity_type": [
+    { "id": 1, "type": "checklist" },
+    { "id": 2, "type": "Data Collection" },
+    { "id": 3, "type": "Document Evidence" }
+  ],
+  "basic": {
+    "path": "https://accreproweb.astirs.com/reset-password",
+    "fromname": "Accrepro",
+    "frommail": "lionforcetestmail@gmail.com",
+    "mailpassword": "accreprotest@123"
+  },
+  "mailsmtp": {
+    "username": "apikey",
+    "password": "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",
+    "passwordreal": "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",
+    "port": 587,
+    "secure": false,
+    "host": "smtp.sendgrid.net",
+    "frommail": "arun@lionforce.net"
+  }
+}

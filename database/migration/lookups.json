@@ -1,0 +1,45 @@
+{
+    "table_name": "lookups",
+    "form_type": "alter",
+    "table_field": [
+      {
+        "Field": "library_id",
+        "Type": "int(11)",
+        "Null": "NO",
+        "Key": "",
+        "Default": "",
+        "Extra": ""
+      },
+      {
+        "Field": "chaptername",
+        "Type": "varchar(455 )",
+        "Null": "YES",
+        "Key": "",
+        "Default": "",
+        "Extra": ""
+      },
+      {
+        "Field": "standardname",
+        "Type": "varchar(455 )",
+        "Null": "YES",
+        "Key": "",
+        "Default": "",
+        "Extra": ""
+      },
+      {
+        "Field": "substandardname",
+        "Type": "varchar(455 )",
+        "Null": "YES",
+        "Key": "",
+        "Default": "",
+        "Extra": ""
+      }    
+    ],
+    "temp_field": [
+      "library_id int(11) NOT NULL",
+      "chaptername varchar(455) ",
+      "standardname varchar(455) ",
+      "substandardname varchar(455) "
+    ]
+  }
+  

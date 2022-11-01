@@ -1,0 +1,1 @@
+{"table_name":"organization_libraries","form_type":"alter","table_field":[{"Field":"organization_id","Type":"int(11)","Null":"YES","Key":"","Default":"","Extra":""},{"Field":"library_id","Type":"int(11)","Null":"YES","Key":"","Default":"","Extra":""}],"temp_field":["organization_id int(11) ","library_id int(11) "],"modelreq":true,"controllerreq":true,"migrationreq":true}

@@ -1,0 +1,98 @@
+{
+  "table_name": "sub_standards",
+  "form_type": "alter",
+  "table_field": [
+    {
+      "Field": "standard_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "name",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "code",
+      "Type": "varchar(255)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "description",
+      "Type": "TEXT",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "esr",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "surveyor_category_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "session_class_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "unit_focus_area",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "file",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "substandard_uid",
+      "Type": "TEXT",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "temp_field": [
+    "standard_id int(11) NOT NULL",
+    "name varchar(255) ",
+    "code varchar(255) NOT NULL",
+    "description TEXT NOT NULL",
+    "esr varchar(255) ",
+    "surveyor_category_id int(11) ",
+    "session_class_id int(11) ",
+    "unit_focus_area varchar(255) ",
+    "file varchar(255) ",
+    "substandard_uid  TEXT NOT NULL"
+  ]
+}

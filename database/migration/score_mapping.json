@@ -1,0 +1,162 @@
+{
+  "table_name": "score_mapping",
+  "form_type": "alter",
+  "table_field": [
+    {
+      "Field": "organization_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "library_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "chapter_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "standard_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "substanard_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "updator_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "internal_surveyor_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "external_surveyor_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "updator_score",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "updator_assesment_date",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "internal_surveyor_score",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+
+    {
+      "Field": "internal_surveyor_assesment_date",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "external_surveyor_score",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "external_surveyor_assesment_date",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "updator_comment",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "internal_surveyor_comment",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "external_surveyor_comment",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "modelreq": false,
+  "controllerreq": false,
+  "migrationreq": false,
+  "temp_field": [
+    "organization_id int(11) ",
+    "library_id int(11) NOT NULL",
+    "chapter_id int(11) NOT NULL",
+    "standard_id int(11) NOT NULL",
+    "substanard_id int(11) NOT NULL",
+    "updator_id int(11) ",
+    "internal_surveyor_id int(11) ",
+    "external_surveyor_id int(11) ",
+    "updator_score int(11) ",
+    "internal_surveyor_score int(11) ",
+    "external_surveyor_score int(11) ",
+    "updator_comment varchar(255) ",
+    "internal_surveyor_comment varchar(255) ",
+    "external_surveyor_comment varchar(255) "
+  ]
+}

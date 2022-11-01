@@ -1,0 +1,1 @@
+{"table_name":"download_samples","form_type":"create","table_field":[{"Field":"link","Type":"varchar(255)","Null":"YES","Key":"","Default":"","Extra":""},{"Field":"type","Type":"varchar(255)","Null":"YES","Key":"","Default":"","Extra":""}],"controllerreq":true,"migrationreq":true,"modelreq":true,"temp_field":["link varchar(255) ","type varchar(255) "]}

@@ -1,0 +1,1 @@
+{"table_name":"roles","form_type":"alter","table_field":[{"Field":"role_name","Type":"varchar(255)","Null":"NO","Key":"","Default":"","Extra":""}],"temp_field":["role_name varchar(255) NOT NULL"]}

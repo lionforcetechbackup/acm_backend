@@ -1,0 +1,1 @@
+{"table_name":"organization_type","form_type":"create","table_field":[{"Field":"type","Type":"varchar(255)","Null":"YES","Key":"","Default":"","Extra":""}],"migrationreq":true,"modelreq":true,"controllerreq":true,"temp_field":["type varchar(255) "]}

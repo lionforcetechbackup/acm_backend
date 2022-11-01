@@ -1,0 +1,91 @@
+{
+  "table_name": "storage_activity_kpi_elements",
+  "form_type": "create",
+  "table_field": [
+    {
+      "Field": "storage_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "frequency",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "target",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "totarget",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "actual_value",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "score",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "ytdScore",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "ytdValue",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "responsedate",
+      "Type": "DATE",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "modelreq": true,
+  "migrationreq": true,
+  "temp_field": [
+    "storage_id int(11) NOT NULL",
+    "frequency varchar(255) ",
+    "target varchar(255) ",
+    "totarget varchar(255) ",
+    "actual_value varchar(255) ",
+    "score varchar(255) ",
+    "ytdScore varchar(255) ",
+    "ytdValue varchar(255) ",
+    "responsedate date"
+  ]
+}

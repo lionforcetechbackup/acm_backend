@@ -1,0 +1,83 @@
+{
+  "table_name": "storage_activity_document",
+  "form_type": "create",
+  "table_field": [
+    {
+      "Field": "admin_activity_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "client_activity_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "updator_id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "document_link",
+      "Type": "varchar(255)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "comment",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "expiry_date",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "description",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "responsedate",
+      "Type": "DATE",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "modelreq": true,
+  "controllerreq": true,
+  "migrationreq": true,
+  "temp_field": [
+    "admin_activity_id int(11) ",
+    "client_activity_id int(11) ",
+    "updator_id int(11) NOT NULL",
+    "document_link varchar(255) NOT NULL",
+    "comment varchar(255) ",
+    "expiry_date varchar(255) ",
+    "description varchar(255) ",
+    "responsedate date"
+  ]
+}

@@ -1,0 +1,1 @@
+{"table_name":"unit_focus_areas","form_type":"create","table_field":[{"Field":"name","Type":"varchar(255)","Null":"NO","Key":"","Default":"","Extra":""}],"controllerreq":true,"modelreq":true,"migrationreq":true,"temp_field":["name varchar(255) NOT NULL"]}

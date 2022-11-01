@@ -1,0 +1,1 @@
+{"table_name":"surveyor_categories","form_type":"create","table_field":[{"Field":"category_name","Type":"varchar(255)","Null":"YES","Key":"","Default":"","Extra":""},{"Field":"created_date","Type":"date","Null":"YES","Key":"","Default":"","Extra":""}],"temp_field":["category_name varchar(255) ","created_date date "]}

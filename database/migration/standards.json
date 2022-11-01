@@ -1,0 +1,44 @@
+{
+    "table_name": "standards",
+    "form_type": "alter",
+    "table_field": [
+        {
+            "Field": "chapter_id",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "",
+            "Extra": ""
+        },
+        {
+            "Field": "name",
+            "Type": "varchar(255)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "",
+            "Extra": ""
+        },
+        {
+            "Field": "code",
+            "Type": "varchar(255)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "",
+            "Extra": ""
+        },
+        {
+            "Field": "description",
+            "Type": "TEXT",
+            "Null": "YES",
+            "Key": "",
+            "Default": "",
+            "Extra": ""
+        }
+    ],
+    "temp_field": [
+        "chapter_id int(11) ",
+        "name varchar(255) ",
+        "code varchar(255) ",
+        "description TEXT "
+    ]
+}

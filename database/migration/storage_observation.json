@@ -1,0 +1,110 @@
+{
+  "table_name": "storage_observation",
+  "form_type": "alter",
+  "table_field": [
+    {
+      "Field": "mapping_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "organization_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "updator_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "admin_activity_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "client_activity_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "observation_type",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "currency_type",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "currency",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "comments",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "expiry_date",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "responsedate",
+      "Type": "DATE",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "modelreq": true,
+  "controllerreq": true,
+  "migrationreq": true,
+  "temp_field": [
+    "mapping_id int(11) ",
+    "organization_id int(11) ",
+    "updator_id int(11) ",
+    "admin_activity_id int(11) ",
+    "client_activity_id int(11) ",
+    "observation_type varchar(255) ",
+    "currency_type varchar(255) ",
+    "currency varchar(255) ",
+    "comments varchar(255) ",
+    "expiry_date varchar(255) ",
+    "responsedate date"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "table_name": "session_classes",
+  "form_type": "alter",
+  "table_field": [
+    {
+      "Field": "class_name",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "library_id",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "surveyor_category_id",
+      "Type": "varchar(500)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "created_date",
+      "Type": "date",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "temp_field": ["class_name varchar(255) ", "created_date date "],
+  "modelreq": true,
+  "controllerreq": true,
+  "migrationreq": true
+}

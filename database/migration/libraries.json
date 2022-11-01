@@ -1,0 +1,35 @@
+{
+  "table_name": "libraries",
+  "form_type": "create",
+  "table_field": [
+    {
+      "Field": "code",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "name",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "description",
+      "Type": "longtext",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "temp_field": [
+    "code varchar(255) ",
+    "name varchar(255) ",
+    "description longtext "
+  ]
+}

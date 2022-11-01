@@ -1,0 +1,19 @@
+ const cars = await Car.findAll({
+    where: {
+        userId: {
+            [Op.in]: myUserIds, // array like userId IN [2, 3, 4]
+        },
+        action: 'start', // like: action = 'start'
+        sellDate: {
+            [Op.not]: null, // Like: sellDate IS NOT NULL
+        },
+        status: {
+            [Op.is]: null, // Like: status IS NULL
+        }
+    },
+    order: [
+        ['id', 'DESC'] // Like: ORDER BY id DESC
+    ],
+    limit: 5, 
+    offset: 1
+});

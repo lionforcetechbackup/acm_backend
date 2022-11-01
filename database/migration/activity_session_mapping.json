@@ -1,0 +1,64 @@
+{
+  "table_name": "activity_session_mapping",
+  "form_type": "create",
+  "table_field": [
+    {
+      "Field": "substandard_id",
+      "Type": "varchar(255)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "session_class_id",
+      "Type": "varchar(255)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "client_activity_id",
+       "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "admin_activity_id",
+       "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+        "Field": "organization_id",
+        "Type": "int(11)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "",
+        "Extra": ""
+      },
+      {
+          "Field": "isUpdate",
+          "Type": "int(11)",
+          "Null": "YES",
+          "Key": "",
+          "Default": "1",
+          "Extra": ""
+        }
+  ],
+  "controllerreq": true,
+  "modelreq": true,
+  "migrationreq": true,
+  "temp_field": [
+    "substandard_id varchar(255) NOT NULL",
+    "session_class_id varchar(255) NOT NULL",
+    "client_activity_id varchar(255) NOT NULL",
+    "admin_activity_id varchar(255) NOT NULL", 
+    "organization_id int(11) "
+  ]
+}

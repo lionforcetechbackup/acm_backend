@@ -1,0 +1,110 @@
+{
+  "table_name": "audits",
+  "form_type": "alter",
+  "table_field": [
+    {
+      "Field": "user_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "table_name",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "primary_id",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "event",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "old_value",
+      "Type": "longtext",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "new_value",
+      "Type": "longtext",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "url",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "ip_address",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "user_agent",
+      "Type": "longtext",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "log_in",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    },
+    {
+      "Field": "log_out",
+      "Type": "datetime",
+      "Null": "YES",
+      "Key": "",
+      "Default": "",
+      "Extra": ""
+    }
+  ],
+  "temp_field": [
+    "user_id int(11) ",
+    "table_name varchar(255) ",
+    "primary_id int(11) ",
+    "event varchar(255) ",
+    "old_value longtext ",
+    "new_value longtext ",
+    "url varchar(255) ",
+    "ip_address varchar(255) ",
+    "user_agent longtext ",
+    "log_in datetime ",
+    "log_out datetime "
+  ],
+  "modelreq": true,
+  "controllerreq": true,
+  "migrationreq": true
+}
